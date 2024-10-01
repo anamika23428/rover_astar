@@ -2,7 +2,7 @@
 <package>
   <name>rover_navigation</name>
   <version>0.6.9</version>
-  <description>. </description>
+  <description>The rover_navigation package</description>
 
   <author email="pmukherj@clearpathrobotics.com">Prasenjit Mukherjee</author>
   <author email="paul@bovbel.com">Paul Bovbel</author>
@@ -13,6 +13,17 @@
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roslaunch</build_depend>
+  <build_depend>nav_core</build_depend>
+  <run_depend>nav_core</run_depend>
+  <build_depend>pluginlib</build_depend>
+    <run_depend>pluginlib</run_depend>
+    <build_depend>roscpp</build_depend>
+    <run_depend>roscpp</run_depend>
+    <build_depend>rospy</build_depend>
+    <run_depend>rospy</run_depend>
+    <build_depend>std_msgs</build_depend>
+    <run_depend>std_msgs</run_depend>
+
   <run_depend>amcl</run_depend>
   <!-- Disabling till package is released -->
   <!-- <run_depend>frontier_exploration</run_depend> -->
@@ -22,8 +33,11 @@
   <run_depend>navfn</run_depend>
   <run_depend>base_local_planner</run_depend>
   <run_depend>dwa_local_planner</run_depend>
+  <run_depend>pluginlib</run_depend>
   <run_depend>spatio_temporal_voxel_layer</run_depend>
 
   <export>
-  </export>
+<!--  Other tools can request additional information be placed here  -->
+<nav_core plugin="${prefix}/astar_planner_plugin.xml"/>
+</export>
 </package>

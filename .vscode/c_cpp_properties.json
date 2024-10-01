@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "/home/anamika/Desktop/rover_2/src/rover_2/four_wheel_steering_controller/include/**",
+        "/home/anamika/Desktop/rover_2/src/rover_2/ros_controllers/joint_state_controller/include/**",
+        "/home/anamika/Desktop/rover_2/src/rover_2/ros_controllers/joint_trajectory_controller/include/**",
+        "/home/anamika/Desktop/rover_2/src/rover_2/ros_controllers/position_controllers/include/**",
+        "/home/anamika/Desktop/rover_2/src/rover_2/spatio_temporal_voxel_layer/include/**",
+        "/home/anamika/Desktop/rover_2/src/rover_2/ros_controllers/swerve_controller/include/**",
+        "/home/anamika/Desktop/rover_2/src/rover_2/urdf_geometry_parser/include/**",
+        "/home/anamika/Desktop/rover_2/src/rover_2/ros_controllers/velocity_controllers/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
